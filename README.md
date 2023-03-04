@@ -22,6 +22,7 @@ Current implementation is very basic and could be improved.
 - Need to reset filter when hand is detected
 - Filters out "double" hand detection that sometimes arise from hand detector. Better to choose the hand with higher confidence
 - Stabilize hand position while gesture is on. Can use a more stable point of the hand instead of using just the index for example 
+- Find a better visualization for the smoothing effect. Changes are very subtle so visualization is not trivial
 
 ### Hand Gesture
 - Improve gesture stability by using hysteresis for example. 
